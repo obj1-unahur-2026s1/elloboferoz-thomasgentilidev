@@ -1,0 +1,35 @@
+import caperucita.caperucita
+import cestaDeManzanas.cesta
+import cazador.cazador
+import feroz.feroz
+import abuela.abuela
+
+program historia {
+  feroz.correr()
+  console.println("El lobo corrio hacia el bosque, encontrandose con Caperucita roja y su cesta de manzanas")
+  console.println("El lobo y Caperucita conversan, y Caperucita le dice al lobo")
+  console.println("Estoy caminando a la casa de mi abuela, mi madre me pidio que le llevara esta cesta de manzanas")
+  console.println("El lobo le dice que si atraviesa el bosque va a llegar mas rapido a la casa de su abuela, Caperucita le cree y camina por donde el lobo le indico")
+  feroz.correr()
+  feroz.comerAlgo(abuela)
+  cesta.dejarCaerUnaManzana()
+  console.println("Caperucita llega a la casa de su abuela, sin embargo la ve de una forma extraña")
+  console.println("-¿Abuelita? dice Caperucita, -¿Por que tus orejas son tan grandes?. El lobo disfrazado de la abuela de caperucita responde -Para escucharte mejor")
+  console.println("El lobo escucha a Caperucita y entre mas preguntas hace, el lobo siente mas hambre, hasta que de un solo bocado devora a Caperucita con todo y canasta")
+  feroz.comerAlgo(caperucita)
+  console.println("Pero lo que el lobo no sabia es que un cazador vecino de la abuela vio como el lobo devoraba a Caperucita")
+  console.println("Entonces, el cazador de una patada entra la casa, apunta su escopeta al lobo y dispara")
+  console.println("No lo mata, pero hace que entre en una crisis")
+  cazador.matarAlLobo()
+  feroz.peso()
+  console.println("El lobo entro en una crisis por el miedo que le dio el cazador, y aterrado de un salto salio por la ventana, corrio hasta que su cuerpo no pudo mas")
+  feroz.correr()
+  feroz.correr()
+  console.println("Peso final del lobo: " + feroz.peso())
+  console.println("¿El lobo esta sano?: " + feroz.elLoboEstaSano())
+
+}
+
+
+
+
